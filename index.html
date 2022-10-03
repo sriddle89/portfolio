@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>safiyah riddle</h1>
+        <h2>Freelance journalist and masters candidate at Craig Newmark School of Journalism</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img src="images/headshot.JPG" src="SafiyahRiddle">
+        <figcaption> Email: safiyah.riddle21@journalism.cuny.edu <span class="credit"> Photo Credit: Sadie Rain</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Safiyah graduated from Haverford College in 2018 with a B.A. in Political Science and a minor in Economics. After graduating, Safiyah taught economics at an international boarding school in Johannesburg, South Africa, where her students represented over 47 countries worldwide. Most recently, Safiyah returned to her hometown of New York City, where she has had roles as an administrative press assistant in the Mayor’s Office, as well as a progressive political communications consulting company. After obtaining her Masters degree from the Craig Newmark School of Journalism at the City University of New York, Safiyah will continue to report on issues most important to New Yorkers.</p>
+      </section>
+
+      <h3 class="flex-hed">Selected work</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <section class="sub_text">
+            <p> <a class="links" href="https://medium.com/@safiyahriddle/mispronouncing-our-own-names-the-politics-of-returning-for-the-black-diaspora-4de8e7d9895a"> Mispronouncing Our Own Names: the Politics of “Returning” for the Black Diaspora</a>
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <section class="sub_text">
+            <p> <a class="links" href="https://medium.com/@safiyahriddle/controversy-vs-critique-why-the-closer-isnt-funny-c36724e9e037"> Controversy vs Critique: Why The Closer Isn’t Funny</a></p>
+                </section>
+        </section>
+
+
+        <section class="img_holder">
+          <section class="sub_text">
+
+            <p><a class="links" href="https://medium.com/@safiyahriddle/the-biggest-threat-to-blm-is-a-street-sign-b2b346d7cc9a"> The Biggest Threat to the Movement for Black Lives is a Street Sign </a>
+</p>
+</section>
+        </section>
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
